@@ -1,0 +1,99 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333333;
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    margin: 0%
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+header {    
+    background: #333333;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.logo-nav-container a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s linear;
+    border-radius: 6px;
+}
+
+.logo-nav-container a:hover {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: all 0.4s linear;
+    border-radius: 5px
+}
+
+.navigation ul li a:hover {
+    background: rgb(39, 196, 0);
+    transition: all 0.4s linear;
+}
+
+main {
+    padding-top: 10%
+}
+
+.pregunta{
+    margin-top: 300px;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.pregunta h3{
+    transition: all 0.4s linear;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: all 0.4s linear;
+}
+.pregunta h3:hover{
+    background: rgb(39, 196, 0);
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
